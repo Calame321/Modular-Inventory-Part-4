@@ -4,7 +4,6 @@ export ( int ) var safe_zone = 30
 
 var dragging : bool = false
 var offset : Vector2
-var ready = false
 
 func _ready():
 	get_viewport().connect( "size_changed", self, "_on_size_changed" )
